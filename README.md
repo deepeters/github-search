@@ -1,27 +1,44 @@
-# GithubSearch
+# Project Name: Github Search
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
-## Development server
+### Project Description
+This is an Angular (Javasript/Typescript) Project designed to use Github API to retrieve information. Users can enter a person's github username in a form and then see the names and descriptions of the the person's public repositories. Similarly, the user can also search for a particular repository. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<img src="images/Quotes.png">
 
-## Code scaffolding
+### Setup Instructions
+The operations of the project are fairly straighforward. 
+The application ia an Angular project and makes use of bootstrap as well as a custom CSS file.
+Google Chrome is highly recommend to run the program.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* This website requires that you have data access to internet data.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+# BDD
 
-## Running unit tests
+## Input
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Output
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Behaviour
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Contact Infomation:
+### Author: [DENNIS NJENGA](https://github.com/deepeters)
+
+         Email: dennis@dennis.com
+         Phone: +254712345678
+
+### Technology Used
+1. AngularJS
+2. HTML
+3. CSS
+4. Javascript
+
+### Frameworks Used
+1. Git
+2. Bootstrap
+3. jQuery
+
+### LICENSE: [MIT LICENSE](https://raw.githubusercontent.com/deepeters/github-search/master/LICENSE)
