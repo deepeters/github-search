@@ -1,6 +1,6 @@
 .nav-links{
   position: relative;
-  right: -75%;
+  left: 55%;
 }
 .nav-links li{
   color: black;
@@ -9,7 +9,8 @@
   border-color: black;
   list-style-type: none;
   font-size: large;
-  padding: 10px;
+  padding: 20px;
+  
   
 
 }
