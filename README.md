@@ -4,7 +4,7 @@
 ### Project Description
 This is an Angular (Javasript/Typescript) Project designed to use Github API to retrieve information. Users can enter a person's github username in a form and then see the names and descriptions of the the person's public repositories. Similarly, the user can also search for a particular repository. 
 
-<img src="images/Quotes.png">
+<img src="images/github-search.png">
 
 ### Setup Instructions
 The operations of the project are fairly straighforward. 
