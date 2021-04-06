@@ -16,12 +16,15 @@ Google Chrome is highly recommend to run the program.
 
 # BDD
 
-## Input
+#| Inputs |  Description |
+| :---         |          ---: |
+| Username  | Github username, ``eg deepeters``|
 
 
-## Output
-
-## Behaviour
+| Outputs |  Description |
+| :---         |          ---: |
+| Profile data  | A specific user profile info.|
+| Repositories   |  All repositories created by a user |
 
 
 # Contact Infomation:
