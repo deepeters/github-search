@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Gruppo&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Averia+Libre&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
 .flex-footer{
   display: flex;
   justify-content: space-around;
