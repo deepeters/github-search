@@ -1,46 +1,46 @@
-
+h1{
+  color: white;
+  font-weight: bolder;
+}
 .flex-footer{
   display: flex;
   justify-content: space-around;
 }
 .jumbotron{
   border-radius: 0;
-  background-color: #172b4d;
+  background-color: grey;
 }
-.card-header{
-}
+.card-header,
 .card-footer{
   background-color: white;
   color: black;
 }
 .repo-number{
   font-size: 25px;
-  font-weight: lighter;
-  font-family: 'Gruppo', cursive;
+  font-weight:bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #num{
   color: orangered;
 }
 #rname{
-  font-family: 'Averia Libre', cursive;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: darkcyan;
   font-size: 30px;
 }
 #rbranch,
 #rdesc,
 #rlang,
-#rforks{
-
-}
-
+#rforks,
 #rwatchers{
   font-size: 17px;
   margin: 5px;
-  font-family: 'Roboto Mono', system-ui, serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
 }
 .data{
-  font-family: 'Roboto Mono', system-ui, serif;
-  font-weight: lighter;
-  color: darkblue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 17px;
 }

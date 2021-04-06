@@ -3,13 +3,14 @@
   right: -75%;
 }
 .nav-links li{
+  color: black;
   font-weight: bolder;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   border-color: black;
   padding: 20px;
 }
 .nav-links li:hover{
-  color: white;
+  color: red;
   text-decoration: underline;
 }
 .logotext{
