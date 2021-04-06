@@ -35,7 +35,7 @@
 }
 .gsearch{
   font-size: 60px;
-  color: white;
+  color: black;
   margin-top: 20px;
   margin-bottom: 40px;
   
@@ -52,4 +52,9 @@
 }
 .fa{
   color: red;
+}
+
+h2 {
+  padding: 20px;
+  font-family: 'Yatra One', cursive;
 }

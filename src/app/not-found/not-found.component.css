@@ -12,6 +12,7 @@
 h1{
   position: relative;
   top: 40%;
-  font-family: system-ui,serif;
+
+  font-family: 'Yatra One', cursive;
   font-size: 100px;
 }

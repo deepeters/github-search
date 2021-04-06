@@ -1,5 +1,5 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
 *,
 *::before,
 *::after {
@@ -16,7 +16,7 @@ section {
 }
 
 body {
-  font-family: Open Sans, sans-serif;
+  font-family: 'Yatra One', cursive;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
