@@ -22,8 +22,8 @@ body {
   line-height: 1.5;
   margin: 0;
   text-align: left;
-  color: #525f7f;
-  background-color: #f8f9fe;
+  color: grey;
+  background-color: grey;
 }
 
 [tabindex='-1']:focus {
@@ -505,7 +505,7 @@ p {
   }
 }
  body{
-  background-color: #172b4d;
+  background-color: grey;
 }
 .gsearch{
   font-size: 60px;
