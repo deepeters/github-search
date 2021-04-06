@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {MyServiceService} from '../my-service.service';
 import {GitUser} from '../git-user';
+import { RepoServiceService } from '../repo-service.service';
 
 @Component({
   selector: 'app-user-data',
@@ -11,14 +11,17 @@ export class UserDataComponent implements OnInit {
   user: GitUser[];
   particlesJS: any;
 
-  constructor(private service: MyServiceService) {
+  constructor(private service: RepoServiceService) {
   }
 
   getSearchedUser(searchTerm) {
-    this.service.searchMyUser(searchTerm).then(
-      (success) => {
-        this.user = this.service.user;
-        console.log(this.user);
+    //this.service.getsearchMyUser(searchTerm).subscribe(
+      //(success) => {
+        //console.log(this.user);
+      //},
+      this.service.getsearchMyUser(searchTerm).subscribe(data => {
+        this.getSearchedUser = data;
+        console.log(this.getSearchedUser);
       },
       (error) => {
         console.log(error);
@@ -27,7 +30,7 @@ export class UserDataComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.getSearchedUser('kamauvick');
+    this.getSearchedUser('deepeters');
     // tslint:disable-next-line:prefer-const
     let particlesJS;
     particlesJS.load('particles-js', 'particles.json', null);

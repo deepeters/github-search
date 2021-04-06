@@ -12,7 +12,12 @@ export class RepoServiceService {
   constructor(public  http: HttpClient) {
   }
 
+  getsearchMyUser(searchTerm: string): Observable<any> {
+    return this.http.get(this._URL + searchTerm);
+  } 
+
   getRepo(searchTerm: string): Observable<any> {
     return this.http.get(this._URL + searchTerm + '/repos?' + this.token);
   }
+  
 }
