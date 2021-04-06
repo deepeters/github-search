@@ -7,15 +7,19 @@
   font-weight: bolder;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   border-color: black;
-  padding: 20px;
+  list-style-type: none;
+  font-size: large;
+  padding: 10px;
+  
+
 }
 .nav-links li:hover{
-  color: red;
+  color: maroon;
   text-decoration: underline;
 }
 .logotext{
   font-family: 'Love Ya Like A Sister', cursive;
   font-weight: bolder;
-  font-size: 1.85em;
+  font-size: 30px;
 }
 
